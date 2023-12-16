@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+  }
+  
+  html,
+  body {
+	padding: 0;
+	margin: 0;
+  }
+  
+  body {
+	background: #1c334d;
+	color: #fff;
+	font-family: "Open sans";
+	text-shadow: 1px 1px 1px #333;
+	overflow-x: hidden;
+  }
+  
+  
+  a {
+	color: #fff;
+	font-weight: 300;
+  }
+  
+
+  
+  .no-scroll {
+	overflow: hidden;
+  }
+  
+  /* Estilos para telas menores - btns */
+  @media (max-width: 980px) {
+
+	  /* Adição para evitar rolamento horizontal */
+	  body {
+		overflow-x: hidden;
+		/*overflow-y: scroll;*/
+	  }
+	
+	  .no-scroll {
+		overflow: hidden !important;
+	  }
+	}
+	
+ 
